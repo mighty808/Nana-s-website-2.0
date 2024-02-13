@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: rgb(14, 12, 12);
     color: #fff;
+        font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 header{
