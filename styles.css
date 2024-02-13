@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(19, 16, 16);
+    background-color: rgb(14, 12, 12);
 }
 
 header{
@@ -286,7 +286,7 @@ footer{
 }
 
 .footer-bottom{
-    background: #516b20;
+    background: rgb(24, 23, 23);
     width: 100vw;
     padding: 20px 0;
     text-align: center;
