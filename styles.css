@@ -9,10 +9,6 @@
 body{
     background-color: rgb(14, 12, 12);
     color: #fff;
-        font-family: "Big Shoulders Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 header{
@@ -522,3 +518,127 @@ footer{
         left: -15px;
     }
 }
+
+
+.Contact-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),
+    url(WhatsApp\ Image\ 2024-02-14\ at\ 3.58.41\ PM.jpeg);
+    background-position: center;
+    background-position:;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+
+.Contact-header .abt-text-con{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.left-con-sec{
+    
+}
+
+.right-con-sec{
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-size: 19px;
+}
+
+.contact-section{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.contact-section .name-sec,::placeholder{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border: 15px;
+    padding-left: 5px;
+}
+
+.text-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.con-me-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+textarea{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-size: 20px;
+}
+
+textarea::placeholder{
+    text-align: center;
+    padding-left: 90px;
+    text-transform: uppercase;
+}
+
+
+.btn {
+    border: none;
+    width: 15em;
+    height: 5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #1C1A1C;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+  }
+  
+  .sparkle {
+    fill: #AAAAAA;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,#A47CF3,#683FEA);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 
+
+.snd-btn{
+    background-color: #683FEA;
+    display: flex;
+  }
