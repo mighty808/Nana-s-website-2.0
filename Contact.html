@@ -60,41 +60,53 @@
                 <a href="https://www.behance.net/knightworks" class="action-btn">Portfolio</a>
             </li>
         </div>  
-        <h1 class="abt-text-con">Contact Me</h1>  
+        <h1 class="abt-text-con">GET IN TOUCH</h1>  
         </header>
         
         
-        <section>
-            <div class="contact-section">
-            <div class="left-con-sec">
-                <input class="name-sec" type="text" placeholder="Full name"> <br>
-                <input class="name-sec" type="number" placeholder="Phone Number"> <br>
-                <input class="name-sec" type="text" placeholder="Email">
+        <div class="contact-section-page">
+            <form onsubmit="emailSend(); reset(); return false;">
+                <input class="name-sec" type="text" required placeholder="Full name"> <br>
+                <input class="name-sec" type="number" required placeholder="Phone Number"> <br>
+                <input class="name-sec" type="text" required placeholder="Email">
 
-                <div class="con-me-text">
-                <p>What project will you like me to help you with?</p>
-                <input type="checkbox"> <label>Social Media</label> <br>
-                <input type="checkbox"> <label>Marketing strategies</label> <br>
-                <input type="checkbox"> <label>Brands and Communications</label>
+                <p class="text-writ">What project will you like me to help you with?</p>
+                <input type="checkbox"> <label class="text-writ">Social Media</label> <br>
+                <input type="checkbox"> <label class="text-writ">Marketing strategies</label> <br>
+                <input type="checkbox"> <label class="text-writ">Brands and Communications</label> <br>
+
+                <textarea class="text-area" name="" id="" cols="38" rows="10 required placeholder="WRITE YOUR CONCERN"></textarea>
+
+                <div class="btn">
+                    <button>
+                        Send
+                    </button>
                 </div>
-            </div>
-            <div class="right-con-sec">
-                <p>
-                    My goal is to enhance corporate branding, accelerate growth, and drive profitability. Leveraging my strong graphic and digital skills. <br> I specialize in developing and executing comprehensive marketing communication strategies</p>
-            </div>
-            </div>
-            <div class="text-area">
-                <textarea name="text" cols="50" rows="10" placeholder="Write your Concern"></textarea>
-            </div>
-                    
-        </section>
-
-        <div class="snd-btn">
-            <button class="btn">           
-                <span class="text">Send</span>
-            </button>
+            </form>  
         </div>
 
+        <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+        <script>
+            function sendEmail(){
+                Email.send({
+                Host : "smtp.gmail.com",
+                Username : "effahaboagye888@gmail.com",
+                Password : "6AACAB699666C7CC89832EDCFFBCFE27B68A",
+                To : 'effahaboagye8@gmail.com',
+                From : "effahaboagye888@gmail.com",
+                Subject : "Message Enquiry",
+                Body : "Name: "+ document.getElementById("name").value 
+                + "<br>  Email: " + document.getElementById("email").value 
+                + "<br>  Phone Number: " + document.getElementById("phone number").value 
+                + "<br>  message: " + document.getElementById("message").value 
+            }).then(
+            message => alert(" Sent Successfully")
+            );
+            }
+        </script>
+        
         <footer>
             <div class="footer-content">
                 <h3>STAY IN TOUCH</h3>
@@ -113,6 +125,8 @@
                 <p>copyright &copy;2024 Aboagye. designed by <span>@mighty</span></p>
             </div>
         </footer>
+
+        
     <script>
         const toggleBtn = document.querySelector('.toggle_btn')
         const toggleBtnIcon = document.querySelector('.toggle_btn i')
@@ -127,5 +141,9 @@
             : 'fa fa-solid fa-bars'
         }
     </script>
+
+    
+
+
 </body>
 </html>

@@ -540,105 +540,73 @@ footer{
     font-size: 50px;
 }
 
-.left-con-sec{
-    
-}
 
-.right-con-sec{
-    text-align: center;
-    padding-left: 25px;
-    padding-top: 30px;
-    font-size: 19px;
-}
-
-.contact-section{
-    display: flex;
-    padding-top: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.contact-section .name-sec,::placeholder{
-    height: 40px;
-    width: 400px;
-    background-color: rgb(20, 20, 20);
-    color: white;
-    margin-top: 10px;
-    border: none;
-    border: 15px;
-    padding-left: 5px;
-}
-
-.text-area{
+.btn{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+button {
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 35px 0;
+  }
+  
+  button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
 
-.con-me-text{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.contact-section-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.name-sec{
+    width: 450px;
+    height: 50px;
+    border: none;
+    margin-top: 15px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    padding-left: 50px;
+    border-radius: 10px;
+    outline: white dashed 0.5px;
+}
+
+
+.name-sec::placeholder{
+    color: white;
+}
+
+.text-writ{
+    padding-top: 35px;
     font-size: 18px;
 }
 
-textarea{
-    background-color: rgb(19, 18, 18);
+.text-area{
+    background-color: #252525;
     color: white;
-    font-size: 20px;
+    margin-top: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 15px;
 }
 
-textarea::placeholder{
+.text-area::placeholder{
     text-align: center;
-    padding-left: 90px;
-    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
 }
 
-
-.btn {
-    border: none;
-    width: 15em;
-    height: 5em;
-    border-radius: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    background: #1C1A1C;
-    cursor: pointer;
-    transition: all 450ms ease-in-out;
-  }
-  
-  .sparkle {
-    fill: #AAAAAA;
-    transition: all 800ms ease;
-  }
-  
-  .text {
-    font-weight: 600;
-    color: #AAAAAA;
-    font-size: medium;
-  }
-  
-  .btn:hover {
-    background: linear-gradient(0deg,#A47CF3,#683FEA);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
-    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
-    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
-    0px 0px 180px 0px #9917FF;
-    transform: translateY(-2px);
-  }
-  
-  .btn:hover .text {
-    color: white;
-  }
-  
-  .btn:hover .sparkle {
-    fill: white;
-    transform: scale(1.2);
-  } 
-
-.snd-btn{
-    background-color: #683FEA;
-    display: flex;
-  }
