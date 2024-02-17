@@ -676,7 +676,7 @@ section .p{
 .right-side p{
     font-size: 17px;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 28px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -685,6 +685,10 @@ section .p{
     
     .left-side img{
         width: 19rem;
+        margin-bottom: 0;
+    }
+
+    .left-side{
         margin-bottom: 0;
     }
 
