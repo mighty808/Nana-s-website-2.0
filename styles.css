@@ -526,7 +526,7 @@ footer{
     background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),
     url(WhatsApp\ Image\ 2024-02-14\ at\ 3.58.41\ PM.jpeg);
     background-position: center;
-    background-position:;
+    background-position: center;
     position: relative;
     padding-left: 30px;
     padding-right: 30px; 
@@ -610,3 +610,56 @@ button {
     padding-top: 10px;
 }
 
+
+section p{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.service-side{
+    display: flex;
+}
+
+
+.left-side{
+    padding: 150px 200px;
+    background: white;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .contact-section-page .name-sec{
+        width: 330px;
+    }
+
+    .contact-section-page{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .text-area{
+        color: blue;
+        display: none;
+}
+
+    .text-writ{
+        font-size: medium;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+
+    .btn button{
+        padding: 7px 10px;
+        font-size: medium;
+    }
+
+    .Contact-header .abt-text-con{
+        font-size: 35px;
+    }
+}
