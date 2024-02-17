@@ -611,26 +611,6 @@ button {
 }
 
 
-section p{
-    padding-top: 30px;
-    font-size: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-}
-
-.service-side{
-    display: flex;
-}
-
-
-.left-side{
-    padding: 150px 200px;
-    background: white;
-    border-radius: 6px;
-    font-size: 15px;
-    color: black;
-}
 
 @media (max-width: 700px) {
     .contact-section-page .name-sec{
@@ -661,5 +641,70 @@ section p{
 
     .Contact-header .abt-text-con{
         font-size: 35px;
+    }
+}
+
+
+
+section .p{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.service-side{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.left-side img{
+    width: 30rem;
+}
+
+.right-side{
+    background: white;
+    font-size: 15px;
+    color: black;
+    height: 320px;
+    width: 380px;
+}
+
+.right-side p{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 700px) {
+    
+    .left-side img{
+        width: 19rem;
+        margin-bottom: 0;
+    }
+
+    .right-side{
+        margin-top: 0;
+        width: 305px;
+    }
+
+    section .p{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .service-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
