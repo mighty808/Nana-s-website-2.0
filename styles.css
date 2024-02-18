@@ -165,9 +165,7 @@ section#hero{
     padding-left: 90px;
     padding-right: 90px;
     text-align: left;
-    height: 400px;
     padding-bottom: 20px;
-    margin-bottom: 0px;
 }
 
 .home-about-sec h2{
@@ -293,6 +291,18 @@ footer{
 .about-sec{
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.insights-sec{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about-header{
