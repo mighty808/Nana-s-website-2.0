@@ -340,6 +340,13 @@ footer{
     .about-header .abt-text{
         font-size: 35px;
     }
+
+    .insights-sec{
+        font-size: 17px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+    }
 }
 
 .timeline{
