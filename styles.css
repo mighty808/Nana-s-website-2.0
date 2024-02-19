@@ -319,6 +319,18 @@ footer{
     margin-top: 50px;
 }
 
+.insights-sec-schol{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 33px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+
 .about-header{
     min-height: 50vh;
     width: 100%;
@@ -750,16 +762,24 @@ section .p{
 
 .img-agg{
     width: 30vh;
+    margin-right: 30px;
 }
 
 .img-upsa{
-    width: 35vh;
+    width: 30vh;
 }
 
 .img-tech{
-    width: 25vh;
+    width: 22vh;
     margin-right: 40px;
 }
+
+
+.img-bedmo{
+    width: 26vh;
+    margin-right: 40px;
+}
+
 
 @media (max-width: 700px) {
     .edu-sec{
