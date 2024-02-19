@@ -198,12 +198,26 @@ section#hero{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       align-items: center;
+      background-blend-mode:    darken;
 }
 
 @media (max-width: 800px) {
     .insights-container{
         grid-template-columns: 1fr 1fr;
     }
+}
+
+
+.insights-container img{
+    filter:grayscale(100%);
+    opacity: 0.8;
+}
+
+
+.insights-container img:hover{
+    transition: 1s;
+    filter: initial;
+    transform-style: flat;
 }
 
 
@@ -712,5 +726,54 @@ section .p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+.edu-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+
+.edu-text{
+    padding-left: 30px;
+    width: 52%;
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.img-agg{
+    width: 30vh;
+}
+
+.img-upsa{
+    width: 35vh;
+}
+
+.img-tech{
+    width: 25vh;
+    margin-right: 40px;
+}
+
+@media (max-width: 700px) {
+    .edu-sec{
+        flex-direction: column;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .edu-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .img-tech, .img-agg, .img-upsa{
+        margin-bottom : 10px;
+        margin-right: 0px;
     }
 }
