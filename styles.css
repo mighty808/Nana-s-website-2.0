@@ -770,10 +770,16 @@ section .p{
     .edu-text{
         padding-left: 20px;
         padding-right: 20px;
+        width: 80%;
     }
 
     .img-tech, .img-agg, .img-upsa{
         margin-bottom : 10px;
         margin-right: 0px;
+        width: 25vh;
+    }
+
+    .img-tech{
+        width: 18vh;
     }
 }
