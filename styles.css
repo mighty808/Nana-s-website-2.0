@@ -171,6 +171,7 @@ section#hero{
 .home-about-sec h2{
     font-size: 35px;
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 .home-about-sec p{
