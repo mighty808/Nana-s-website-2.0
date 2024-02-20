@@ -656,8 +656,9 @@ section .p{
     }
 
     section .p{
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 16px;
     }
 }
 
@@ -731,6 +732,15 @@ section .p{
 
     .img-tech{
         width: 18vh;
+    }
+
+    .img-bedmo{
+        margin-left: 35px;
+    }
+
+
+    .insights-sec-schol{
+        font-size: 17px;
     }
 }
 
@@ -906,4 +916,14 @@ footer {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
+
+    .footer-links{
+        display: none;
+    }
+
+    .footer-distributed h3 {
+        color: #ffffff;
+        font-family: cursive;
+    }
+
 }       
