@@ -614,12 +614,21 @@ button {
     padding-right: 30px; 
 }
 
+@media (max-width: 760px) {
+    .Services-header{
+        background-position: left;
+    }
+
+    .Services-header .abt-text-con {
+        opacity: 1;
+    }
+}
 
 .Services-header .abt-text-con{
     text-align: center;
     color: #fff;
     padding-top: 130px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 section .p{
