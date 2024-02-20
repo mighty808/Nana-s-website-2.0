@@ -603,9 +603,28 @@ button {
 }
 
 
+.Services-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),
+    url(top\ side.jpeg);
+    background-position:center;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+
+.Services-header .abt-text-con{
+    text-align: center;
+    color: #fff;
+    padding-top: 130px;
+    font-size: 50px;
+}
 
 section .p{
-    padding-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
     font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
