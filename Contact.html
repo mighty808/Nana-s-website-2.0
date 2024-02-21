@@ -18,7 +18,7 @@
 <body>
     <header class="Contact-header">
         <div class="navbar">
-            <div class="logo"><a href="index.html">ABOAGYE</a></div>
+            <div class="logo"><a href="index.html"><img src="mypics/JKA1.jpg" alt=""></a></div>
 
             <ul class="links">
                 <li>
@@ -64,49 +64,84 @@
         </header>
         
         
-        <div class="contact-section-page">
-            <form onsubmit="emailSend(); reset(); return false;">
-                <input class="name-sec" type="text" required placeholder="Full name"> <br>
-                <input class="name-sec" type="number" required placeholder="Phone Number"> <br>
-                <input class="name-sec" type="text" required placeholder="Email">
-
-                <p class="text-writ">What project will you like me to help you with?</p>
-                <input type="checkbox"> <label class="text-writ">Social Media</label> <br>
-                <input type="checkbox"> <label class="text-writ">Marketing strategies</label> <br>
-                <input type="checkbox"> <label class="text-writ">Brands and Communications</label> <br>
-
-                <textarea class="text-area" name="" id="" cols="38" rows="10" required
-                placeholder="Write Your Concern">  </textarea>
-
-                <div class="btn">
-                    <button>
-                        Send
-                    </button>
+        <div class="container">
+            <span class="big-circle"></span>
+            <img src="img/shape.png" class="square" alt="" />
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Let's collaborate and accomplish your objectives together!
+                </p>
+      
+                <div class="info">
+                  <div class="information">
+                    <img src="img/location.png" class="icon" alt="" />
+                    <p>Obuasi
+                        Engineering Training Center, Obuasi north mine</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/email.png" class="icon" alt="" />
+                    <p>joelaboagye50@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/phone.png" class="icon" alt="" />
+                    <p>+233 501 159     152</p>
+                  </div>
                 </div>
-            </form>  
-        </div>
-
-        <script src="https://smtpjs.com/v3/smtp.js">
-</script>
-
-        <script>
-            function sendEmail(){
-                Email.send({
-                Host : "smtp.gmail.com",
-                Username : "effahaboagye888@gmail.com",
-                Password : "6AACAB699666C7CC89832EDCFFBCFE27B68A",
-                To : 'effahaboagye8@gmail.com',
-                From : "effahaboagye888@gmail.com",
-                Subject : "Message Enquiry",
-                Body : "Name: "+ document.getElementById("name").value 
-                + "<br>  Email: " + document.getElementById("email").value 
-                + "<br>  Phone Number: " + document.getElementById("phone number").value 
-                + "<br>  message: " + document.getElementById("message").value 
-            }).then(
-            message => alert(" Sent Successfully")
-            );
-            }
-        </script>
+      
+                <div class="social-media">
+                  <p>Connect with us :</p>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/joel-kwabena-aboagye-44b17a11a/">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    <a href="https://www.facebook.com/JoelKAboagye">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/JoelKAboagye">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/joelkaboagye/">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+      
+                <form action="index.html" autocomplete="off">
+                  <h3 class="title">Contact us</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Name</label>
+                    <span>Name</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">Email</label>
+                    <span>Email</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Phone</label>
+                    <span>Phone</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Message</label>
+                    <span>Message</span>
+                  </div>
+                  <input type="submit" value="Send" class="btn" />
+                </form>
+              </div>
+            </div>
+          </div>
+      
+          <script src="app.js"></script>
         
         
         <footer>
