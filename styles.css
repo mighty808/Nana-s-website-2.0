@@ -19,27 +19,9 @@ body{
     position: relative;
     padding-left: 30px;
     padding-right: 30px; 
-    animation: animate 16s ease-in-out infinite;
-    
-}
-
-
-@keyframes animate {
-    0%, 100%{
     background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)),
-    url(IMG_8127.JPG);
-    }
-
-    33%{
-        background-image: linear-gradient(rgba(4,9,30,0.1), rgba(4,9,30,0.1)),
-        url(nana\ kk10\ new.jpg);
-        }
-
-    66%{
-        background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)),
-            url(nana\ 2.01.jpeg);
-            }
-
+    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 11.36.39\ AM3A.jpg);
+    
 }
 
 
@@ -168,7 +150,8 @@ section#hero{
 }
 
 #hero h1{
-    font-size: 4rem;
+    padding-top: 80px;
+    font-size: 3.5rem;
 }
 
 #hero h1 .hero-sec{
@@ -178,8 +161,7 @@ section#hero{
 
 #hero p{
     color: white;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15.5px;
 }
 
 .home-about-sec{
