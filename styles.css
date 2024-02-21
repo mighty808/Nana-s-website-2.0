@@ -25,12 +25,6 @@ header{
 }
 
 
-@media (max-width: 800px) {
-    header{
-        background-position:calc(-10px,-1000px) center;
-    }
-}
-
 
 li{
     list-style: none;
@@ -68,6 +62,7 @@ a:hover{
     display: flex;
     gap: 2rem;
     padding-left: 450px;
+    margin-right: 30px;
 }
 
 .navbar .toggle_btn {
@@ -89,7 +84,6 @@ a:hover{
     padding: 7px 15px 7px 15px;
     border-radius: 40px;
     font-weight: bold;
-    margin-left: 30px;
     cursor: pointer;
     outline: none;
     transition: scale 0.2 ease;
@@ -175,12 +169,12 @@ section#hero{
 
 @media (max-width: 830px) {
     #hero h1{
-        font-size: 1.3rem;
+        font-size: 1.539rem;
     }
 
     #hero .hero-sec{
         color: white;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -518,7 +512,7 @@ section#hero{
     min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),
-    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 11.36.42\ AM\ \(1\).jpeg);
+    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 1.26.48\ PM.jpeg.jpg);
     background-position:unset;
     position: relative;
     padding-left: 30px;
