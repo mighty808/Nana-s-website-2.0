@@ -11,7 +11,7 @@ body{
     color: #fff;
 }
 
-header{
+.home-header{
     min-height: 100vh;
     width: 100%;
     background-position: center;
@@ -22,6 +22,7 @@ header{
     animation: animate 16s ease-in-out infinite;
     
 }
+
 
 @keyframes animate {
     0%, 100%{
@@ -34,8 +35,8 @@ header{
         url(nana\ kk10\ new.jpg);
         }
 
-        66%{
-            background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)),
+    66%{
+        background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)),
             url(nana\ 2.01.jpeg);
             }
 
@@ -172,10 +173,13 @@ section#hero{
 
 #hero h1 .hero-sec{
     padding-top: 50px;
+    
 }
 
 #hero p{
-    color: whitesmoke;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .home-about-sec{
