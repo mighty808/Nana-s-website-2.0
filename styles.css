@@ -20,7 +20,7 @@ header{
     padding-left: 30px;
     padding-right: 30px; 
     background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)),
-    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 11.36.39\ AM3A.jpg);
+    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 11.36.39\ AM3.jpg);
     
 }
 
@@ -294,8 +294,8 @@ section#hero{
     min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),
-    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 11.36.39\ AM4.jpg);
-    background-position: top;
+    url(mypics/WhatsApp\ Image\ 2024-02-21\ at\ 11.36.39\ AM3A.jpg);
+    background-position: center;
     background-size: initial;
     position: relative;
     padding-left: 30px;
@@ -338,48 +338,11 @@ section#hero{
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
-    
 }
 
 .container{
     padding: 10px 50px;
     position: relative;
-    width: 50%;
-    animation: movedown 1s linear forwards;
-    opacity: 0;
-}
-
-@keyframes movedown {
-    0%{
-        opacity: 1;
-        transform: translateY(-30px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-
-.container:nth-child(1){
-    animation-delay: 0s;
-}
-
-.container:nth-child(2){
-    animation-delay: 1s;
-}
-
-.container:nth-child(3){
-    animation-delay: 3s;
-}
-
-.container:nth-child(4){
-    animation-delay: 4s;
-}
-
-.container:nth-child(5){
-    animation-delay: 5s;
 }
 
 
@@ -389,6 +352,7 @@ section#hero{
     border-radius: 6px;
     font-size: 15px;
     color: black;
+    width: 50%;
 }
 
 .left-container{
@@ -422,17 +386,6 @@ section#hero{
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 10s linear forwards;
-}
-
-@keyframes moveline {
-    0%{
-        height: 0;
-    }
-
-    100%{
-        height: 100%;
-    }
 }
 
 
@@ -445,29 +398,6 @@ section#hero{
     margin-bottom: 16px;
 }
 
-.left-container-arrow{
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid white;
-    right: -15px;
-}
-
-.right-container-arrow{
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid white;
-    left: -15px;
-}
 
 @media screen and (max-width: 600px) {
     .timeline{
@@ -598,7 +528,6 @@ button {
 }
 
 
-
 @media (max-width: 700px) {
     .contact-section-page .name-sec{
         width: 330px;
@@ -688,6 +617,17 @@ section .p{
     width: 380px;
 }
 
+
+.logo1{
+    height: 314px;
+    margin-left: 0.1px;
+}
+
+
+.logo2{
+    height: 318px;
+}
+
 .right-side p{
     font-size: 17px;
     text-align: center;
@@ -716,6 +656,9 @@ section .p{
         padding-left: 60px;
         padding-right: 60px;
         font-size: 16px;
+    }
+    .logo2{
+        height: 400px;
     }
 }
 
