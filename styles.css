@@ -334,36 +334,36 @@ section#hero{
     }
 }
 
-.timeline{
+.mytimeline{
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
 }
 
-.container{
+.mycontainer{
     padding: 10px 50px;
     position: relative;
+    width: 50%;
+    margin-bottom: 50px;
 }
 
-
-.textbox{
+.mytextbox{
     padding: 20px 30px;
     background: white;
     border-radius: 6px;
     font-size: 15px;
     color: black;
-    width: 50%;
 }
 
-.left-container{
+.myleft-container{
     left: 0;
 }
 
-.right-container{
+.myright-container{
     left: 50%;
 }
 
-.container img{
+.mycontainer img{
     position: absolute;
     width: 40px;
     border-radius: 50%;
@@ -372,11 +372,11 @@ section#hero{
     z-index: 10;
 }
 
-.right-container img{
+.myright-container img{
     left: -20px;
 }
 
-.timeline::after{
+.mytimeline::after{
     content: '';
     position: absolute;
     width: 6px;
@@ -389,48 +389,48 @@ section#hero{
 }
 
 
-.textbox h2{
+.mytextbox h2{
     font-weight: 600;
 }
 
-.textbox small{
+.mytextbox small{
     display: inline-block;
     margin-bottom: 16px;
 }
 
 
 @media screen and (max-width: 600px) {
-    .timeline{
+    .mytimeline{
         margin: 50px auto;
     }
 
-    .timeline::after{
+    .mytimeline::after{
         left: 31px;
     }
 
-    .container{
+    .mycontainer{
         width: 100%;
         padding-left: 80px;
         padding-right: 25px;
     }
 
-    .textbox{
+    .mytextbox{
         font-size: 13px;
     }
     
-    .textbox small{
+    .mytextbox small{
         margin-bottom: 10px;
     }
 
-    .right-container{
+    .myright-container{
         left: 0;
     }
 
-    .left-container img, .right-container img{
+    .myleft-container img, .myright-container img{
         left: 10px;
     }
 
-    .left-container-arrow, .right-container-arrow{
+    .myleft-container-arrow, .myright-container-arrow{
         border-right: 15px solid white;
         border-left: 0;
         left: -15px;
