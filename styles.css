@@ -1131,27 +1131,32 @@ footer p{
 
   @media (max-width: 1090px) {
     .all-service-container{
-        grid-template-columns: 1fr 1fr;align-items: center;
-
+        grid-template-columns: 1fr 1fr;
     }
 
     .service-container img{
         width: 80%;
       }
+
+      .service-container{
+        align-items: center;
+        margin-top: 60px;
+    }
   }
 
 
   @media (max-width: 790px) {
     .all-service-container{
         grid-template-columns: 1fr;
-        align-items: center;
     }
 
     .service-container{
         align-items: center;
+        margin-top: 50px;
     }
 
     .service-container img{
-        width: 50%;
+        width: 70%;
+        border-radius: 50%;
       }
   }
