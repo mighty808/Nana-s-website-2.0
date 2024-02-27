@@ -598,79 +598,6 @@ section .p{
     text-align: center;
 }
 
-.service-side{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-
-.left-side img{
-    width: 30rem;
-}
-
-.right-side{
-    background: white;
-    font-size: 15px;
-    color: black;
-    height: 320px;
-    width: 380px;
-}
-
-
-.logo1{
-    height: 314px;
-    margin-left: 0.1px;
-}
-
-
-.logo2{
-    height: 318px;
-}
-
-.right-side p{
-    font-size: 17px;
-    text-align: center;
-    padding-top: 28px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-@media (max-width: 700px) {
-    
-    .left-side img{
-        width: 19rem;
-        margin-bottom: 0;
-    }
-
-    .left-side{
-        margin-bottom: 0;
-    }
-
-    .right-side{
-        margin-top: 0;
-        width: 305px;
-    }
-
-    section .p{
-        padding-left: 60px;
-        padding-right: 60px;
-        font-size: 16px;
-    }
-    .logo2{
-        height: 400px;
-    }
-}
-
-
-@media (max-width: 900px) {
-    .service-side{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 .edu-sec{
     display: flex;
@@ -1174,4 +1101,57 @@ footer p{
   .phonee{
     font-size: 1.5rem;
     margin-right: 20px;
+  }
+
+
+  .all-service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-top: 50px;
+    min-width: 100%;
+  }
+
+  .service-container{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+
+  .service-container p{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .service-container img{
+    width: 100%;
+    border-radius: 50%;
+  }
+
+
+  @media (max-width: 1090px) {
+    .all-service-container{
+        grid-template-columns: 1fr 1fr;align-items: center;
+
+    }
+
+    .service-container img{
+        width: 80%;
+      }
+  }
+
+
+  @media (max-width: 790px) {
+    .all-service-container{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .service-container{
+        align-items: center;
+    }
+
+    .service-container img{
+        width: 50%;
+      }
   }
