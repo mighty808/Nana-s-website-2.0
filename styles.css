@@ -1116,7 +1116,8 @@ footer p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 15px;
     margin-top: 50px;
-    min-width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .service-container{
@@ -1132,13 +1133,19 @@ footer p{
 
   .service-container img{
     width: 100%;
-    border-radius: 50%;
+    border-radius: 5%;
+  }
+
+
+  .service-container p{
+    margin-bottom: 10px;
   }
 
 
   @media (max-width: 1090px) {
     .all-service-container{
         grid-template-columns: 1fr 1fr;
+        
     }
 
     .service-container img{
@@ -1164,7 +1171,6 @@ footer p{
 
     .service-container img{
         width: 85%;
-        border-radius: 50%;
       }
 
       .service-container p{
