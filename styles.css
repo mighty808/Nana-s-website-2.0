@@ -599,9 +599,9 @@ button {
 
 @media (max-width: 700px) {
     .p{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 1.1rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1rem;
     }
 }
 
@@ -1163,7 +1163,11 @@ footer p{
     }
 
     .service-container img{
-        width: 70%;
+        width: 85%;
         border-radius: 50%;
+      }
+
+      .service-container p{
+        margin-bottom: 12px;
       }
   }
