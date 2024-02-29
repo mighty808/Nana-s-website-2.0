@@ -74,17 +74,18 @@
               <div class="contact-left">
                 <h3>Send Your Request</h3>
 
-                <form>
+                <form action="https://formspree.io/f/xyyrjlwn" method="POST">
+                  
                   <div class="input-row">
 
                     <div class="input-group">
                       <label>Name</label>
-                      <input type="text" placeholder="John Kings">
+                      <input name="name" type="text" placeholder="John Kings" required>
                     </div>
 
                     <div class="input-group">
                       <label>Phone</label>
-                      <input type="text" placeholder="+233 (0)20 000 0000">
+                      <input name="Phone" type="text" placeholder="+233 (0)20 000 0000" required>
                     </div>
 
 
@@ -95,17 +96,17 @@
 
                     <div class="input-group">
                       <label>Email</label>
-                      <input type="text" placeholder="johnkings@gmail.com">
+                      <input name="email" type="text" placeholder="johnkings@gmail.com" required>
                     </div>
 
                     <div class="input-group">
                       <label>Subject</label>
-                      <input type="text" placeholder="I would like to ...">
+                      <input name="Subject" type="text" placeholder="I would like to ..." required>
                     </div>
                   </div>
 
                   <label>Message</label>
-                  <textarea rows="5" placeholder="Your Message"></textarea>
+                  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
 
                   <button type="submit">Send</button>
                 </form>
