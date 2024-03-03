@@ -226,8 +226,7 @@ section#hero{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       align-items: center;
-      background-blend-mode: darken;
-      
+      background-blend-mode: darken;      
 }
 
 @media (max-width: 800px) {
