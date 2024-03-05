@@ -595,7 +595,7 @@ section#hero{
     .p{
         padding-left: 30px;
         padding-right: 30px;
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 }
 
@@ -828,20 +828,22 @@ footer p{
     margin-bottom: 150px;
   }
 
-  .kudah-section{
-    background-color: white;
-      color: black;
-      text-align: center;
-      padding-top: 30px;
-      font-size: 2.5rem;
-      padding-bottom: 30px;
-      margin-top: 100px;
-      margin-bottom: 0;
+  .kud-secc{
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: black;
+    background-color: #fff;
+    font-size: 2.8rem;
+    font-weight: bold;
   }
 
   @media (max-width: 790px) {
-    .kudah-section{
+    .kud-secc{
       font-size: 1.5rem;
+      display: block;
+      margin-bottom: 90px;
     }
 
     .spanfooter{
@@ -854,12 +856,41 @@ footer p{
     .slider-sec{
       height: 50vh;
     }
+
+    .kud-secc{
+        font-size: 2.2rem;
+      } 
+  }
+
+
+  @media (max-width: 680px) {
+    .kud-secc{
+      margin-bottom: 70px;
+    }
+  }
+
+  @media (max-width: 624px) {
+    .kud-secc{
+      margin-bottom: 0px;
+      font-size: 1.8rem;
+    }
+
+    @media (max-width: 420px) {
+        .kud-secc{
+          margin-bottom: 0px;
+          font-size: 1.5rem;
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+
+        .slider-sec{
+            height: 40vh;
+        }
   }
 
   .container {
      width: 80%;
      margin: 50px auto;
-     
   }
 
   .contact-box{
@@ -935,46 +966,158 @@ footer p{
     box-shadow: none;
     transform: translate(3px, 3px);
   }
-
-
-
-  .contact-right{
-    color: #FAFAFA;
   }
 
-  .contact-right h3{
-    font-weight: 600;
-    margin-bottom: 30px;
-  }
-
-  tr td{
-    padding-top: 20px;
-  }
-
-  tr td:first-child{
-    padding-right: 30px;
-  }
-
-  @media (max-width:964px) {
-    .contact-box{
-      flex-direction: column;
-    }
+  .container {
+    width: 80%;
+    margin: 50px auto;
     
-    .contact-left{
-      flex-basis: 10%;
-    }
+ }
 
-    tr td:first-child{
-      padding-right: 10px;
-    }
+ .contact-box{
+   background-color: #FAFAFA;
+   display: flex;
+   color: black;
+ }
 
-    .input-row{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 10px;
-    }
+ .contact-left{
+   flex-basis: 60%;
+   padding: 40px 60px;
+ }
 
-    .input-group{
-      margin-bottom: 25px;
-    }
-  }
+ .contact-right{
+   flex-basis: 40%;
+   padding: 40px;
+   background-color: #252525;
+ }
+
+ h1{
+   margin-bottom: 10px;
+ }
+
+ .container p{
+   margin-bottom: 40px;
+ }
+
+ .input-row{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+ }
+
+ .input-row .input-group{
+   flex-basis: 45%;
+ }
+
+ .contact-left h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ input{
+   width: 100%;
+   border: none;
+   border-bottom: 1px solid #ccc;
+   outline: none;
+   padding-bottom: 5px;
+ }
+
+ textarea{
+   width: 100%;
+   border: 1px solid #ccc;
+   outline: none;
+   box-sizing: border-box;
+ }
+
+ label{
+   margin-bottom: 6px;
+   display: block;
+ }
+
+
+ button {
+   font-size: 1rem;
+   color: #FAFAFA;
+   text-transform: uppercase;
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: 2px solid #FAFAFA;
+   background: #252525;
+   box-shadow: 3px 3px #272424;
+   cursor: pointer;
+   margin: 35px 0;
+ }
+ 
+ button:active {
+   box-shadow: none;
+   transform: translate(3px, 3px);
+ }
+
+
+
+ .contact-right{
+   color: #FAFAFA;
+ }
+
+ .contact-right h3{
+   font-weight: 600;
+   margin-bottom: 30px;
+ }
+
+ tr td{
+   padding-top: 20px;
+ }
+
+ tr td:first-child{
+   padding-right: 30px;
+ }
+
+ @media (max-width:964px) {
+   .contact-box{
+     flex-direction: column;
+   }
+   
+   .contact-left{
+     flex-basis: 10%;
+   }
+
+   tr td:first-child{
+     padding-right: 10px;
+   }
+
+   .input-row{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+   }
+
+   .input-group{
+     margin-bottom: 25px;
+   }
+
+   .container {
+    width: 91.5%;
+    margin: 50px auto;
+ }
+
+ .container h1{
+    font-size: 1.5rem;
+    text-align: center;
+ }
+
+ .container p{
+    font-size: 0.9rem;
+    text-align: center;
+ }
+
+ .contact-left h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ }
