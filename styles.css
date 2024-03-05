@@ -240,13 +240,14 @@ section#hero{
     filter:grayscale(100%);
     opacity: 0.8;
     margin: 0;
+    transition: 400ms ease-in-out;
 }
 
 
 .insights-container img:hover{
-    transition: 1s;
     filter: initial;
     transform-style: flat;
+    scale: 1.011;
 }
 
 
