@@ -457,6 +457,7 @@ section#hero{
     position: relative;
     padding-left: 30px;
     padding-right: 30px; 
+    filter:grayscale(100%);
 }
 
 
